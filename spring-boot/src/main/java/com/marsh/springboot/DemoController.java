@@ -11,6 +11,6 @@ public class DemoController {
 
     @GetMapping("/demo")
     public Map<String, String> demoEndpoint(){
-        return Collections.singletonMap("result", "Hello World");
+        return Collections.singletonMap("message", "Hello World");
     }
 }
